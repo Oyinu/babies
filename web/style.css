@@ -1,0 +1,111 @@
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: #FFE4C4;
+}
+.first-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    margin-bottom: 20%;
+}
+h2{
+    font-family: tajawal;
+    letter-spacing: 2px;
+}
+.explore-now{
+    font-size: .9rem;
+    padding: .8rem 1rem;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2rem;
+    transition: .3s ease-in-out;
+}
+.explore-now a{
+    color: white;
+    text-decoration: none;
+}
+.sub{
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+.explore-now:hover{
+    transform: translateY(-5px);
+    transition: .3s ease-in-out;
+}
+.menu-icon{
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bar{
+    width: 2%;
+    height: 2px;
+    background-color: #000;
+}
+.menu-content{
+    display: none;
+}
+.menu-content.show{
+    display: block;
+    list-style: none;
+}
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+.active, .accordion:hover{
+    background-color: #ccc;
+
+}
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.strange{
+   font-size: .8rem;
+}
+.strange a{
+    text-decoration: none;
+    color: black;
+    font-family: tajawal;
+}
+.menu-content{
+    display: none;
+
+}
+.container:hover .menu-content{
+    display: block;
+}
+h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: tajawal;
+    padding: 0 8rem;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: tajawal;
+   
+}
