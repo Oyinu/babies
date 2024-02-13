@@ -206,9 +206,21 @@ h2{
     font-size: 1.3rem;
     line-height: 3px;
 }
-
-
-
+.pict{
+    width: 700px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+}
+h5{
+    font-family: tajawal;
+    margin-left: 45%;
+}
+h6{
+    margin-left: 43%;
+    font-family: tajawal;
+}
 
 
 
@@ -391,17 +403,31 @@ h2{
     padding: .2rem 3rem;
 }
 .text2{
-    padding: 1rem auto;
+    padding: 1.2rem auto;
     margin-bottom: 2.5rem;
 }
 .text2 p{
-    font-size: .9rem;
+    font-size: 1.1rem;
     line-height: 3px;
 }
-
-
-
-
+h5{
+    font-family: tajawal;
+    font-size: 1.2rem;
+    margin-left: 40%;
+}
+.carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pict{
+    width: 400px;
+}
+h6{
+    font-family: tajawal;
+    font-size: 1.2rem;
+    margin-left: 25%;
+}
 
 }
 
