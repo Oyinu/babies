@@ -427,10 +427,117 @@ h6{
     font-size: 1.2rem;
     margin-left: 25%;
 }
-
+#sit{
+    background: white;
+    min-height: 100vh;
+}
+.tire{
+    line-height: 2.5rem;
+}
+.sigh{
+    font-size: 1.3rem;
+   
+}
+.wahala{
+    font-size: .9rem;
+    margin-left: 2%;
+}
+.married{
+    font-size: .9rem;
+}
+.move{
+    color: black;
+    background-color:transparent;
+    border: 1px solid black;
+    padding: .8rem 8rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-left:7%;
+}
+.move:hover{
+    background-color: black;
+}
+.tail{
+    font-family: tajawal;
+}
+.emp{
+    height: 1px;
+    width: 30px;
+    background-color: black;
+    margin-left: 46%;
+    margin-top: 1rem;
+}
+.ye{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: tajawal;
+    margin-left: 20%;
+}
+.yee{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: tajawal;
+    margin-left: 37%;
+}
+.check{
+    width: 330px;
+    height: 3rem;
+    padding: 1rem 1rem;   
+    border-radius: .6rem;
+    border: 1px solid black;
+    margin-left: 10%;
+}
+.last{
+    color: white;
+    background-color:black;
+    padding: .8rem 8rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-left:12%;
+}
+.eh{
+    color: black;
+    background-color:transparent;
+    border: 1px solid black;
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-left:37%;
+}
+footer{
+    background-color: black;
+    min-height: 50vh;
 }
 
-
+.fill1{
+    height: 1px;
+    width: 300px;
+    background-color:white;
+    margin-left: 13%;
+    margin-top: rem;
+}
+#footer {
+    padding: 20% 10%;
+}
+#footer ul li {
+    list-style: none
+}
+#footer ul li a{
+    color:white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: tajawal;
+}
+.copy{
+    color: white;
+    font-size: 1rem;
+    font-family: tajawal;
+    margin: 30% auto;
+}
+}
 #slide1{
 display: flex;
 }
