@@ -1,0 +1,553 @@
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    background-color: #FFE4C4;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFE4C4;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .baby{
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin: 1rem;
+}
+header .navbar ul{
+    list-style: none;
+    margin: .2rem;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+    
+}
+header .navbar ul li a{
+    font-size: 15px;
+    padding: 1rem ;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: .3s ease-in-out;
+}
+header .navbar ul li a:hover{
+
+transition: .3s ease-in-out;
+}
+.sub1{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background-color: white;
+    display: none;
+}
+.sub1 li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.sub2{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    background-color: white;
+    display: none;
+}
+.sub2 li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+#menu-bar{
+    display: none;
+}
+header label{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+h1,p{
+    font-family: tajawal;
+}
+h1{
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+p{
+    display: flex;
+    font-size: .7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+  height: auto;
+  width: 100%;
+}
+
+h1{
+    font-family: tajawal;
+    font-size: 2rem;
+    color: black;
+    margin-top: 1rem;
+    line-height: 1.2rem;
+}
+p{
+    font-family: tajawal;
+    color: black;
+    font-size: .7rem;
+    
+
+}
+h2{
+    font-family: tajawal;
+    font-size: 1.8rem;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 40%;
+}
+.known{
+    color: white;
+    background-color: black;
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    border-radius: .7rem;
+    text-decoration: none;
+    margin-left: 45%;
+}
+.known2,.known3{
+    color: white;
+    background-color: black;
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    border-radius: .7rem;
+    text-decoration: none;
+    margin-left: 47%;
+}
+
+.head{
+    font-size: 1.6rem;
+    font-family: tajawal;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.empty{
+    height: 1px;
+    width: 800px;
+    background-color: black;
+    margin-left:22%;
+    margin-top: 1rem;
+}
+.para{
+    line-height: 2px;
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+.read{
+    color: white;
+    background-color: black;
+    padding: .8rem 1rem;
+    font-size: .7rem;
+    border-radius: .6rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-left: 47%;
+}
+.picture{
+    width: 300px;
+    border-radius: .3rem;
+}
+.next{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.first-set,.second-set,.third-set,.fourth-set{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 2rem 20rem;
+}
+.first-set-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 16rem;
+}
+.text2{
+    padding: 2rem auto;
+    margin-bottom: 5rem;
+}
+.text2 p{
+    font-size: 1.3rem;
+    line-height: 3px;
+}
+.pict{
+    width: 700px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+}
+h5{
+    font-family: tajawal;
+    margin-left: 45%;
+}
+h6{
+    margin-left: 43%;
+    font-family: tajawal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    
+    header{
+        padding: 1rem;
+    }
+   header label{
+    display: initial;
+   }
+   header .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    display: none;
+    
+   }
+   header .navbar ul li{
+    width: 100%;
+   }
+   header .navbar ul li ul{
+    position: relative;
+    width: 100%;
+   }
+   header .navbar ul li ul li{
+    background-color: white;
+
+   }
+   header .navbar ul li ul li ul{
+    width: 100%;
+    left: 0;
+   }
+   #menu-bar:checked ~ .navbar{
+    display: initial;
+   }
+   h1,p{
+    font-family: tajawal;
+}
+h1{
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+p{
+    display: flex;
+    font-size: .7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+  height: auto;
+  width: 100%;
+}
+
+h1{
+    font-family: tajawal;
+    font-size: 2rem;
+    color: black;
+    margin-top: 1rem;
+    line-height: 1.2rem;
+}
+p{
+    font-family: tajawal;
+    color: black;
+    font-size: .7rem;
+    
+
+}
+h2{
+    font-family: tajawal;
+    font-size: 1.8rem;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+.known{
+    color: white;
+    background-color: black;
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    border-radius: .7rem;
+    text-decoration: none;
+    margin-left: 35%;
+}
+.known2,.known3{
+    color: white;
+    background-color: black;
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    border-radius: .7rem;
+    text-decoration: none;
+    margin-left: 37%;
+}
+
+.head{
+    font-size: 1.3rem;
+    font-family: tajawal;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.empty{
+    height: 1px;
+    width: 300px;
+    background-color: black;
+    margin-left: 13%;
+    margin-top: 1rem;
+}
+.para{
+    line-height: 2px;
+    margin-top: 1rem;
+}
+.read{
+    margin-left:40%;
+    margin-top: 2rem;
+    padding: .7rem .9rem;
+}
+.picture{
+    width: 150px;
+    border-radius: .2rem;
+}
+.next{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.first-set,.second-set,.third-set,.fourth-set{
+    display: flex;
+    align-self: center;
+    justify-content:space-between;
+    padding: .3rem 3rem;
+}
+.first-set-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .2rem 3rem;
+}
+.text2{
+    padding: 1.2rem auto;
+    margin-bottom: 2.5rem;
+}
+.text2 p{
+    font-size: 1.1rem;
+    line-height: 3px;
+}
+h5{
+    font-family: tajawal;
+    font-size: 1.2rem;
+    margin-left: 40%;
+}
+.pict{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h6{
+    font-family: tajawal;
+    font-size: 1.2rem;
+    margin-left: 25%;
+}
+#sit{
+    background: white;
+    min-height: 100vh;
+}
+.tire{
+    line-height: 2.5rem;
+}
+.sigh{
+    font-size: 1.3rem;
+   
+}
+.wahala{
+    font-size: .9rem;
+    margin-left: 2%;
+}
+.married{
+    font-size: .9rem;
+}
+.move{
+    color: black;
+    background-color:transparent;
+    border: 1px solid black;
+    padding: .8rem 8rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-left:7%;
+}
+.move:hover{
+    background-color: black;
+}
+.tail{
+    font-family: tajawal;
+}
+.emp{
+    height: 1px;
+    width: 30px;
+    background-color: black;
+    margin-left: 46%;
+    margin-top: 1rem;
+}
+.ye{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: tajawal;
+    margin-left: 20%;
+}
+.yee{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: tajawal;
+    margin-left: 37%;
+}
+.check{
+    width: 330px;
+    height: 3rem;
+    padding: 1rem 1rem;   
+    border-radius: .6rem;
+    border: 1px solid black;
+    margin-left: 10%;
+}
+.last{
+    color: white;
+    background-color:black;
+    padding: .8rem 8rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-left:12%;
+}
+.eh{
+    color: black;
+    background-color:transparent;
+    border: 1px solid black;
+    padding: .8rem 1rem;
+    font-size: .8rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-left:37%;
+}
+footer{
+    background-color: black;
+    min-height: 50vh;
+}
+
+.fill1{
+    height: 1px;
+    width: 300px;
+    background-color:white;
+    margin-left: 13%;
+    margin-top: rem;
+}
+#footer {
+    padding: 20% 10%;
+}
+#footer ul li {
+    list-style: none
+}
+#footer ul li a{
+    color:white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: tajawal;
+}
+.copy{
+    color: white;
+    font-size: 1rem;
+    font-family: tajawal;
+    margin: 30% auto;
+}
+}
+#slide1{
+display: flex;
+}
+
+
+
+
+
+
+
+
+
+
