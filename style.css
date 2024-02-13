@@ -165,6 +165,55 @@ h2{
     margin-top: 1rem;
     font-size: .8rem;
 }
+.read{
+    color: white;
+    background-color: black;
+    padding: .8rem 1rem;
+    font-size: .7rem;
+    border-radius: .6rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-left: 47%;
+}
+.picture{
+    width: 300px;
+    border-radius: .3rem;
+}
+.next{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.first-set,.second-set,.third-set,.fourth-set{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 2rem 20rem;
+}
+.first-set-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 16rem;
+}
+.text2{
+    padding: 2rem auto;
+    margin-bottom: 5rem;
+}
+.text2 p{
+    font-size: 1.3rem;
+    line-height: 3px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -313,6 +362,47 @@ h2{
     line-height: 2px;
     margin-top: 1rem;
 }
+.read{
+    margin-left:40%;
+    margin-top: 2rem;
+    padding: .7rem .9rem;
+}
+.picture{
+    width: 150px;
+    border-radius: .2rem;
+}
+.next{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.first-set,.second-set,.third-set,.fourth-set{
+    display: flex;
+    align-self: center;
+    justify-content:space-between;
+    padding: .3rem 3rem;
+}
+.first-set-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .2rem 3rem;
+}
+.text2{
+    padding: 1rem auto;
+    margin-bottom: 2.5rem;
+}
+.text2 p{
+    font-size: .9rem;
+    line-height: 3px;
+}
+
+
+
+
+
 }
 
 
