@@ -415,14 +415,13 @@ h5{
     font-size: 1.2rem;
     margin-left: 40%;
 }
-.carousel-inner{
+.pict{
+    width: 300px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-.pict{
-    width: 400px;
-}
+
 h6{
     font-family: tajawal;
     font-size: 1.2rem;
